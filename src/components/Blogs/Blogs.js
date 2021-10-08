@@ -4,8 +4,8 @@ import BlogsCard from "./BlogsCard";
 import Particle from "../Particle";
 import Footer from "../Footer";
 
-import project01 from "../../Assets/Projects/project01.png";
-import project02 from "../../Assets/Projects/project02.png";
+import project01 from "../../Assets/Blogs/project01.png";
+import project02 from "../../Assets/Blogs/project02.png";
 
 function Blogs() {
     return (
@@ -14,19 +14,21 @@ function Blogs() {
                 <Particle />
                 <Container>
                     <h1 className="project-heading">
-                        My Recent <strong className="purple">Works </strong>
+                        My Recent <strong className="purple">Blogs </strong>
                     </h1>
                     <p style={{ color: "white" }}>
-                        Here are a few projects I've worked on recently.
+                        Here are a few blogs I've recently wrote.
                     </p>
                     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                         <Col md={12} className="project-card">
                             <BlogsCard
                                 imgPath={project01}
                                 isBlog={false}
-                                title="ONN Bikes"
-                                description="ONN Bikes is a Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Plans @ Most Affordable Price. Free Helmet & Easy Booking. ONN Bikes are working with all our blood and sweat to create an alternative way of travel by the means of Bike rental services and ONN Bikes also provide excellent transport at very less cost."
-                                link="https://github.com/shivam-singh-au17/BackEndOnnBikes"
+                                date="Aug 29, 2021"
+                                time="4 min read"
+                                title="A great experience cloning the onnbikes.com website using frontend and backend tools."
+                                description="This is a website where one can rent bikes at their convenience and this was my first big project and what I experienced in making this project and how me and my team completed this project all those things are written in this blog I hope you enjoy reading it."
+                                link="https://hashnode.com/post/a-great-experience-cloning-the-onnbikescom-website-using-frontend-and-backend-tools-cksx1w6e00iykkxs1e9eu8iz8"
                             />
                         </Col>
 
@@ -34,9 +36,11 @@ function Blogs() {
                             <BlogsCard
                                 imgPath={project02}
                                 isBlog={false}
-                                title="Medium"
-                                description="Medium is an American online publishing platform developed by Evan Williams and launched in August 2012. It is owned by A Medium Corporation. The platform is an example of social journalism, having a hybrid collection of amateur and professional people and publications, or exclusive blogs or publishers on Medium, and is regularly regarded as a blog host."
-                                link="https://github.com/shivam-singh-au17/ProjectMediumClone"
+                                date="Oct 3, 2021"
+                                time="4 min read"
+                                title="My first React website and my first experience of cloning a website using React Framework."
+                                description="On this website, anyone can post by writing on any topic and blog written by someone have to read and how I cloned this website and what tools did I have to use to make this website I have written about all these things me and what was my experience, it is not so good but I hope you will enjoy reading it."
+                                link="https://hashnode.com/post/my-first-react-website-and-my-first-experience-of-cloning-a-website-using-react-framework-ckubc4ifx06xg0gs12zxddjbl"
                             />
                         </Col>
 
@@ -44,9 +48,11 @@ function Blogs() {
                             <BlogsCard
                                 imgPath={project01}
                                 isBlog={false}
-                                title="ONN Bikes"
-                                description="ONN Bikes is a Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Plans @ Most Affordable Price. Free Helmet & Easy Booking. ONN Bikes are working with all our blood and sweat to create an alternative way of travel by the means of Bike rental services and ONN Bikes also provide excellent transport at very less cost."
-                                link="https://github.com/shivam-singh-au17/BackEndOnnBikes"
+                                date="Aug 29, 2021"
+                                time="4 min read"
+                                title="A great experience cloning the onnbikes.com website using frontend and backend tools."
+                                description="This is a website where one can rent bikes at their convenience and this was my first big project and what I experienced in making this project and how me and my team completed this project all those things are written in this blog I hope you enjoy reading it."
+                                link="https://hashnode.com/post/a-great-experience-cloning-the-onnbikescom-website-using-frontend-and-backend-tools-cksx1w6e00iykkxs1e9eu8iz8"
                             />
                         </Col>
 
@@ -54,9 +60,11 @@ function Blogs() {
                             <BlogsCard
                                 imgPath={project02}
                                 isBlog={false}
-                                title="Medium"
-                                description="Medium is an American online publishing platform developed by Evan Williams and launched in August 2012. It is owned by A Medium Corporation. The platform is an example of social journalism, having a hybrid collection of amateur and professional people and publications, or exclusive blogs or publishers on Medium, and is regularly regarded as a blog host."
-                                link="https://github.com/shivam-singh-au17/ProjectMediumClone"
+                                date="Oct 3, 2021"
+                                time="4 min read"
+                                title="My first React website and my first experience of cloning a website using React Framework."
+                                description="On this website, anyone can post by writing on any topic and blog written by someone have to read and how I cloned this website and what tools did I have to use to make this website I have written about all these things me and what was my experience, it is not so good but I hope you will enjoy reading it."
+                                link="https://hashnode.com/post/my-first-react-website-and-my-first-experience-of-cloning-a-website-using-react-framework-ckubc4ifx06xg0gs12zxddjbl"
                             />
                         </Col>
                     </Row>
