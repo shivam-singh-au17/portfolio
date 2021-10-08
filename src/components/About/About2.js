@@ -11,13 +11,11 @@ function About2() {
                             LET ME <span className="purple"> INTRODUCE </span> MYSELF
                         </h1>
                         <p className="home-about-body">
+                            A passionate programmer, born and brought up in India. I am a Full Stack Web Developer with <b className="purple"> React.js, Redux, Express.js, Node.js, NestJS and SQL </b> as my tech stack.
+                            <br />
+                            <br />
                             I fell in love with programming and I have at least learnt
                             something, I think… 🤷‍♂️
-                            <br />
-                            <br />I am fluent in classics like
-                            <i>
-                                <b className="purple"> C++, Javascript and Python. </b>
-                            </i>
                             <br />
                             <br />
                             My field of Interest's are building new &nbsp;
@@ -30,18 +28,7 @@ function About2() {
                             </i>
                             <br />
                             <br />
-                            Whenever possible, I also apply my passion for developing products
-                            with <b className="purple">Node.js</b> and
-                            <i>
-                                <b className="purple">
-                                    {" "}
-                                    Modern Javascript Library and Frameworks
-                                </b>
-                            </i>
-                            &nbsp; like
-                            <i>
-                                <b className="purple"> React.js and Next.js</b>
-                            </i>
+                            I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                         </p>
                     </Col>
                 </Row>
