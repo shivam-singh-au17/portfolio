@@ -6,7 +6,6 @@ import About from "./components/About/About";
 import Blogs from "./components/Blogs/Blogs";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
-// import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
@@ -40,7 +39,6 @@ function App() {
           <Route path="/blog" component={Blogs} />
           <Route path="/contact" component={Contact} />
         </Switch>
-        {/* <Footer /> */}
       </div>
     </Router>
   );
