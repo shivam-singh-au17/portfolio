@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
+import Particle2 from "../Particle2";
 import Resumecontent from "./ResumeContent";
 import pdf from "../../Assets/ShivamSinghResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -12,9 +12,9 @@ function Resume() {
 
 
   return (
-    <>
+    <div className="resume-background">
+      <Particle2 />
       <Container fluid className="resume-section">
-        <Particle />
         <Container>
           <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button variant="primary" href={pdf} target="_blank">
@@ -70,7 +70,7 @@ function Resume() {
         </Container>
       </Container>
       <Footer />
-    </>
+    </div>
   );
 }
 
