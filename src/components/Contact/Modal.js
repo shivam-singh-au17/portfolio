@@ -10,14 +10,14 @@ const MyModal = (props) => {
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
             >
-                <Modal.Header closeButton style={{ fontSize: "5em", background: "#ba083f"}} >
-                    <Modal.Title id="contained-modal-title-vcenter" style={{ fontSize: ".7em", color:"#FFFFFF"}}>
-                        <span style={{ color: "#0095FF" }}>---------</span>{" Mail me at "}<span style={{ color: "#0095FF" }}>---------</span>
+                <Modal.Header closeButton className="Home-Mail-Call" style={{ fontSize: "5em" }} >
+                    <Modal.Title id="contained-modal-title-vcenter" style={{ fontSize: ".7em", color: "#FFFFFF" }}>
+                        <span style={{ opacity: "0" }}>---------</span>{" Mail me at "}
                     </Modal.Title>
                 </Modal.Header>
-                <Modal.Body style={{ background: "#ba083f" }}>
-                    <p style={{ fontSize: "2.5em", color: "#0095FF"}}>
-                        <span style={{ color: "#FFFFFF" }}>-----</span>{" shivamsingh4458@gmail.com "}<span style={{ color: "#FFFFFF" }}>-----</span>
+                <Modal.Body className="Home-Mail-Call">
+                    <p style={{ fontSize: "2.5em", color: "#FFFFFF" }}>
+                        <span style={{ opacity: "0" }}>-----</span>{" shivamsingh4458@gmail.com "}
                     </p>
                 </Modal.Body>
             </Modal>
