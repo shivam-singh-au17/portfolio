@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import BlogsCard from "./BlogsCard";
-import Particle from "../Particle";
+import Particle2 from "../Particle2";
 import Footer from "../Footer";
 
 import project01 from "../../Assets/Blogs/project01.png";
@@ -9,9 +9,9 @@ import project02 from "../../Assets/Blogs/project02.png";
 
 function Blogs() {
     return (
-        <>
+        <div className="blog-background">
+            <Particle2 />
             <Container fluid className="project-section">
-                <Particle />
                 <Container>
                     <h1 className="project-heading">
                         My Recent <strong className="purple">Blogs </strong>
@@ -71,7 +71,7 @@ function Blogs() {
                 </Container>
             </Container>
             <Footer />
-        </>
+        </div>
     );
 }
 
