@@ -555,7 +555,6 @@ html {
 }
 
 .formContect {
-  border: none;
   background-image: var(--image-gradient), url(./Assets/contact-bg.svg);
   color: white !important ;
   background-position: top center;
