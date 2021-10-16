@@ -7,15 +7,14 @@ function About2() {
             <Container>
                 <Row>
                     <Col md={12} className="home-about-description">
-                        <h1 style={{ fontSize: "2.6em" }}>
-                            LET ME <span className="purple"> INTRODUCE </span> MYSELF
+                        <h1 style={{ fontSize: "3em" }}>
+                            “About <span className="purple"> me” </span>
                         </h1>
                         <p className="home-about-body">
                             A passionate programmer, born and brought up in India. I am a Full Stack Web Developer with <b className="purple"> React.js, Redux, Express.js, Node.js, NestJS and SQL </b> as my tech stack.
                             <br />
                             <br />
-                            I fell in love with programming and I have at least learnt
-                            something, I think… 🤷‍♂️
+                            I fell in love with programming and <b className="purple">“I have learnt a lot”</b>
                             <br />
                             <br />
                             My field of Interest's are building new &nbsp;
@@ -28,7 +27,7 @@ function About2() {
                             </i>
                             <br />
                             <br />
-                            I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                            I love learning about new technologies, what problems are they solving and How can <b className="purple">I use them to build better and scalable products.</b>
                         </p>
                     </Col>
                 </Row>
