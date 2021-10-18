@@ -24,13 +24,18 @@ const Message = (props) => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="Home-Message-Img">
-          <Form style={{ padding: "20px 50px" }}>
+          <Form
+            style={{ padding: "20px 50px" }}
+            action="https://formspree.io/f/xyylaeoa"
+            method="POST"
+          >
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Name</Form.Label>
               <Form.Control
                 className="formContect"
                 required
                 type="text"
+                name="name"
                 placeholder="Please Write Your Name"
               />
             </Form.Group>
@@ -40,6 +45,7 @@ const Message = (props) => {
                 className="formContect"
                 required
                 type="email"
+                name="_replyto"
                 placeholder="Please Write Your Email"
               />
             </Form.Group>
@@ -51,6 +57,7 @@ const Message = (props) => {
               <Form.Control
                 className="formContect"
                 as="textarea"
+                name="message"
                 rows={3}
                 placeholder="Please Type Your Message Here"
               />
