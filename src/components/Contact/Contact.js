@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle2 from "../Particle2";
-import Footer from "../Footer";
+import Particle from "../Particle";
 import {
     AiFillGithub,
     AiOutlineTwitter,
@@ -20,14 +19,16 @@ function Contact() {
     const [message, setMessage] = React.useState(false);
     return (
         <div className="contact-background">
-            <Particle2 />
+            <Particle />
             <Container fluid className="home-about-section" id="about">
                 <Row>
                     <Col md={12} className="home-about-social">
-                        <h1 style={{ fontSize: "7em", marginTop: "50px" }}>FIND ME ON</h1>
-                        <p style={{ fontSize: "2em" }}>
+                        <h1 style={{ fontSize: "2.3em", marginTop: "61px" }}>Find Me On</h1>
+                        <p style={{ fontSize: "1.1em" }}>
                             Feel free to <span className="purple">connect </span>with me
                         </p>
+                    </Col>
+                    <Col md={6} className="home-about-social">
                         <ul className="home-about-social-links">
                             <li className="social-icons-contect">
                                 <Callme show={callme} onHide={() => setCallme(false)} />
@@ -37,7 +38,7 @@ function Contact() {
                                 >
                                     <IoCall />
                                 </span>
-                                <span className="link-text-css" onClick={() => setCallme(true)}>+916306518466<span style={{opacity:0}}>----</span></span>
+                                <span className="link-text-css" onClick={() => setCallme(true)}>+916306518466<span style={{ opacity: 0 }}>-|-</span></span>
                             </li>
                             <li className="social-icons-contect">
                                 <MyModal
@@ -50,7 +51,7 @@ function Contact() {
                                 >
                                     <CgMail />
                                 </span>
-                                <span className="link-text-css" onClick={() => setModalShow(true)}>shivamsingh4458<span style={{opacity:0}}>--</span></span>
+                                <span className="link-text-css" onClick={() => setModalShow(true)}>shivamsingh4458<span style={{ opacity: 0 }}>||</span></span>
                             </li>
                             <li className="social-icons-contect">
                                 <a
@@ -63,6 +64,10 @@ function Contact() {
                                 </a>
                                 <a className="link-text-css" target="_blank" rel="noreferrer" href="https://github.com/shivam-singh-au17">shivam-singh-au17</a>
                             </li>
+                        </ul>
+                    </Col>
+                    <Col md={6} className="home-about-social">
+                        <ul className="home-about-social-links">
                             <li className="social-icons-contect">
                                 <a
                                     href="https://www.linkedin.com/in/shivamsingh4458/"
@@ -99,7 +104,6 @@ function Contact() {
                     </Col>
                 </Row>
             </Container>
-            <Footer />
         </div>
     );
 }
