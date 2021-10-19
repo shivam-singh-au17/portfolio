@@ -400,7 +400,7 @@ html {
   margin: 25px;
   /* text-align: center !important; */
   font-size: 2.5em !important;
-  line-height: 1.40em !important;
+  line-height: 1.4em !important;
   background: rgba(255, 0, 106, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
@@ -985,3 +985,106 @@ html {
 .fork-btn-inner::after {
   display: none !important;
 } */
+
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.social-icons-contect {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+}
+
+.first {
+  animation-delay: 0.4s;
+}
+.second {
+  animation-delay: 0.4s;
+}
+.third {
+  animation-delay: 0.8s;
+}
+.fourth {
+  animation-delay: 0.8s;
+}
+.fifth {
+  animation-delay: 1.2s;
+}
+.sixth {
+  animation-delay: 1.2s;
+}
+
+
+
+
+.project-card {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+}
+
+
+.first-blog {
+  animation-delay: 0.5s;
+}
+.second-blog {
+  animation-delay: 1.5s;
+}
+.third-blog {
+  animation-delay: 2.5s;
+}
+.fourth-blog {
+  animation-delay: 3.5s;
+}
+/* .fifth {
+  animation-delay: 1.2s;
+}
+.sixth {
+  animation-delay: 1.2s;
+} */
+
+
+.my-img-home-div{
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+}
+
+
+
+.myabout{
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+}
+
+.first-about {
+  animation-delay: 0.5s;
+}
+.second-about {
+  animation-delay: 1s;
+}
+.third-about {
+  animation-delay: 1.5s;
+}
+.fourth-about {
+  animation-delay: 2s;
+}
+
+
+
+
+
+.icon-fade{
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+}
