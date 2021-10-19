@@ -14,7 +14,7 @@ function Skill() {
       <Particle2 />
       <div className="Skill-background">
         <Container fluid className="about-section">
-          <Container>
+          <Container className="icon-fade">
             <h1 style={{ fontSize: "2.6em", marginBottom: "50px" }}>
               <u>My <span className="purple"> Skills </span></u>
             </h1>
