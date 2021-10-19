@@ -17,7 +17,7 @@ function Particle() {
             "value": "#ffffff"
           },
           "shape": {
-            "type": "star",
+            "type": "polygon",
             "stroke": {
               "width": 0,
               "color": "#000000"
