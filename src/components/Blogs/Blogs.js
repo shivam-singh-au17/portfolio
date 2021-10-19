@@ -20,7 +20,7 @@ function Blogs() {
                         Here are a few blogs I've recently wrote.
                     </p>
                     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                        <Col md={12} className="project-card">
+                        <Col md={12} className="project-card first-blog">
                             <BlogsCard
                                 imgPath={project01}
                                 isBlog={false}
@@ -32,7 +32,7 @@ function Blogs() {
                             />
                         </Col>
 
-                        <Col md={12} className="project-card">
+                        <Col md={12} className="project-card second-blog">
                             <BlogsCard
                                 imgPath={project02}
                                 isBlog={false}
@@ -44,7 +44,7 @@ function Blogs() {
                             />
                         </Col>
 
-                        <Col md={12} className="project-card">
+                        <Col md={12} className="project-card third-blog">
                             <BlogsCard
                                 imgPath={project01}
                                 isBlog={false}
@@ -56,7 +56,7 @@ function Blogs() {
                             />
                         </Col>
 
-                        <Col md={12} className="project-card">
+                        <Col md={12} className="project-card fourth-blog">
                             <BlogsCard
                                 imgPath={project02}
                                 isBlog={false}
