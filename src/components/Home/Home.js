@@ -26,7 +26,7 @@ function Home() {
                 <strong>FULL STACK WEB DEVELOPER</strong>
               </h6>
               <h4 className="sub-heading-name">
-                Based in
+                From 
                 <strong className="main-name"> Mirzapur, Uttar Pradesh</strong>
               </h4>
               <div style={{ paddingLeft: 45, textAlign: "left" }}>
