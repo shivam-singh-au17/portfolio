@@ -30,7 +30,7 @@ function Contact() {
                     </Col>
                     <Col md={6} className="home-about-social">
                         <ul className="home-about-social-links">
-                            <li className="social-icons-contect">
+                            <li className="social-icons-contect first">
                                 <Callme show={callme} onHide={() => setCallme(false)} />
                                 <span
                                     onClick={() => setCallme(true)}
@@ -40,7 +40,7 @@ function Contact() {
                                 </span>
                                 <span className="link-text-css" onClick={() => setCallme(true)}>+916306518466<span style={{ opacity: 0 }}>-|-</span></span>
                             </li>
-                            <li className="social-icons-contect">
+                            <li className="social-icons-contect third">
                                 <MyModal
                                     show={modalShow}
                                     onHide={() => setModalShow(false)}
@@ -53,7 +53,7 @@ function Contact() {
                                 </span>
                                 <span className="link-text-css" onClick={() => setModalShow(true)}>shivamsingh4458<span style={{ opacity: 0 }}>||</span></span>
                             </li>
-                            <li className="social-icons-contect">
+                            <li className="social-icons-contect fifth">
                                 <a
                                     href="https://github.com/shivam-singh-au17"
                                     target="_blank"
@@ -68,7 +68,7 @@ function Contact() {
                     </Col>
                     <Col md={6} className="home-about-social">
                         <ul className="home-about-social-links">
-                            <li className="social-icons-contect">
+                            <li className="social-icons-contect second">
                                 <a
                                     href="https://www.linkedin.com/in/shivamsingh4458/"
                                     target="_blank"
@@ -79,7 +79,7 @@ function Contact() {
                                 </a>
                                 <a className="link-text-css" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/shivamsingh4458/">shivamsingh4458<span style={{ opacity: 0 }}>--</span></a>
                             </li>
-                            <li className="social-icons-contect">
+                            <li className="social-icons-contect fourth">
                                 <a
                                     href="https://twitter.com/SHIVAMSINGH4458"
                                     target="_blank"
@@ -90,7 +90,7 @@ function Contact() {
                                 </a>
                                 <a className="link-text-css" target="_blank" rel="noreferrer" href="https://twitter.com/SHIVAMSINGH4458">SHIVAMSINGH4458</a>
                             </li>
-                            <li className="social-icons-contect">
+                            <li className="social-icons-contect sixth">
                                 <Message show={message} onHide={() => setMessage(false)} />
                                 <span
                                     onClick={() => setMessage(true)}
