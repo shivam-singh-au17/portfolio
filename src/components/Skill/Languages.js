@@ -9,10 +9,10 @@ function Languages() {
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Col xs={4} md={2} className="tech-icons">
-                <DiJavascript1 />
+                <DiJavascript1 /><span>Javascript</span>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiPython />
+                <DiPython /><span>Python</span>
             </Col>
         </Row>
     );

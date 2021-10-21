@@ -467,6 +467,9 @@ html {
 .my-img-home {
   box-shadow: 15px 15px 24px -10px #0180f9;
   border-radius: 50%;
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.svg);
+  background-position: top center;
+  background-attachment: fixed; */
 }
 
 @media (max-width: 767px) {
@@ -626,7 +629,8 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 5px 5px 5px 1px rgba(255, 0, 170, 0.781) !important;
+  border: 3px solid rgba(255, 0, 170, 0.459) !important;
+  box-shadow: 5px 5px 0px 4px rgba(255, 255, 255, 0.781) !important;
   color: white !important;
   background-color: transparent !important;
   /* opacity: 0.9 !important; */
@@ -674,7 +678,8 @@ html {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: -3px -3px 4px 1px rgba(255, 0, 170, 0.781) !important;
+  border: 3px solid rgb(0, 204, 255) !important;
+  box-shadow: -5px -5px 0px 4px rgba(255, 255, 255, 0.781) !important;
 }
 
 .blog-card {
@@ -751,20 +756,21 @@ html {
   padding-top: 140px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
+  color: #0095ff;
+  font-size: 5em !important;
   margin: 20px !important;
-  padding: 15px !important;
+  padding: 0px 35px !important;
   opacity: 0.93 !important;
-  border: 2px solid rgba(221, 4, 149, 0.459) !important;
+  border: 2px solid rgba(255, 0, 170, 0.459) !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 50% !important;
+  border-radius: 20% !important;
   display: table !important;
-  box-shadow: 3px 5px 5px 5px rgba(255, 0, 170, 0.781) !important;
+  box-shadow: 5px 5px 0px 5px rgba(255, 255, 255, 0.781) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -772,6 +778,15 @@ html {
 .tech-icons {
   position: relative;
 }
+
+.tech-icons span {
+  font-size: 0.3em;
+  padding: 0px 15px 1px 15px;
+  color: #ffffff;
+  position: relative;
+  bottom: 35px;
+}
+
 .tech-icons::before {
   position: absolute;
   top: 0;
@@ -816,10 +831,10 @@ html {
 }
 
 .tech-icons:hover {
-  cursor: pointer;
+  /* cursor: pointer; */
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(0, 195, 255, 0.589) !important;
+  border: 3px solid rgba(0, 195, 255, 0.589) !important;
 }
 
 .tech-icon-images {
@@ -986,8 +1001,6 @@ html {
   display: none !important;
 } */
 
-
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1026,14 +1039,10 @@ html {
   animation-delay: 1.2s;
 }
 
-
-
-
 .project-card {
   opacity: 0;
   animation: fadeInUp 1s ease-in-out 0s forwards;
 }
-
 
 .first-blog {
   animation-delay: 0.5s;
@@ -1054,15 +1063,12 @@ html {
   animation-delay: 1.2s;
 } */
 
-
-.my-img-home-div{
+.my-img-home-div {
   opacity: 0;
   animation: fadeInUp 1s ease-in-out 0s forwards;
 }
 
-
-
-.myabout{
+.myabout {
   opacity: 0;
   animation: fadeInUp 1s ease-in-out 0s forwards;
 }
@@ -1080,11 +1086,7 @@ html {
   animation-delay: 2s;
 }
 
-
-
-
-
-.icon-fade{
+.icon-fade {
   opacity: 0;
   animation: fadeInUp 1s ease-in-out 0s forwards;
 }

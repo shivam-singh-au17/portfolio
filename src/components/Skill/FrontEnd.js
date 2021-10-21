@@ -17,22 +17,22 @@ function FrontEnd() {
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Col xs={4} md={2} className="tech-icons">
-                <DiHtml5 />
+                <DiHtml5 /><span>Html</span>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiCss3 />
+                <DiCss3 /><span><br/>Css</span>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiReact />
+                <DiReact /><span>React</span>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiRedux />
+                <SiRedux /><span>Redux</span>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiNpm />
+                <DiNpm /><span><br />Npm</span>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiBootstrap />
+                <DiBootstrap /><span>Bootstrap</span>
             </Col>
             {/* <Col xs={4} md={2} className="tech-icons">
                 <SiStyledcomponents />

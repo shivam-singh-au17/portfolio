@@ -15,16 +15,16 @@ function BackEnd() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiNodejs /><span>Nodejs</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
+        <DiMysql /><span>Mysql</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiMongodb /><span>Mongodb</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiFirebase /><span>Firebase</span>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
