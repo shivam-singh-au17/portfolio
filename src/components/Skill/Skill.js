@@ -16,7 +16,7 @@ function Skill() {
         <Container fluid className="about-section">
           <Container className="icon-fade">
             <h1 style={{ fontSize: "2.6em", marginBottom: "50px" }}>
-              <u>My <span className="purple"> Skills </span></u>
+              <u>My <span className="purple"> <u>Skills</u> </span></u>
             </h1>
 
             <h1 className="project-heading">
