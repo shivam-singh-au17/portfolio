@@ -1,10 +1,13 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
+  // SiVercel,
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
+  SiFigma,
 } from "react-icons/si";
+import { IoLogoVercel } from "react-icons/io5";
 import {
   DiGit,
 } from "react-icons/di";
@@ -23,6 +26,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku /><span>Heroku</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <IoLogoVercel /><span>Vercel</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma /><span>Figma</span>
       </Col>
     </Row>
   );
