@@ -28,7 +28,7 @@ function Projects() {
                 isBlog={false}
                 title="Medium"
                 tool=" HTML, CSS, JavaScript, React, Express.JS, MongoDB, NodeJS, EJS, Bootstrap "
-                description="Medium is an American online publishing platform developed by Evan Williams and launched in August 2012. It is owned by A Medium Corporation. The platform is an example of social journalism, having a hybrid collection of amateur and professional people and publications, or exclusive blogs or publishers on Medium, and is regularly regarded as a blog host."
+                description="This website is a clone of Medium.com, it is a platform where a person can write and host a professional blog and any user comes to my clone website then he can log in by his email and after logging in he can write a blog and he also gets facility that he can read blogs written by others and he can also host his blog, his blog is visible to all users."
                 link="https://github.com/shivam-singh-au17/ProjectMediumClone"
                 demoLink="https://mediumapp.vercel.app/"
               />
@@ -40,7 +40,7 @@ function Projects() {
                 isBlog={false}
                 title="ONN Bikes 2.0"
                 tool=" HTML, CSS, JavaScript, Express.JS, MongoDB, NodeJS, EJS, Bootstrap "
-                description="ONN Bikes is a Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Plans @ Most Affordable Price. Free Helmet & Easy Booking. ONN Bikes are working with all our blood and sweat to create an alternative way of travel by the means of Bike rental services and ONN Bikes also provide excellent transport at very less cost."
+                description="This is another clone of my previous project Onnbikes.com In this project all the data is linked to the database and the whole website is built with the help of backend tools. It is a platform where bikes or scooters can rent bikes at the cheapest price with the most flexible daily, weekly, and monthly bike rental plans and all these facilities are available on our website too."
                 link="https://github.com/shivam-singh-au17/BackEndOnnBikes"
                 demoLink="https://onnbikes.herokuapp.com/"
               />
@@ -52,7 +52,7 @@ function Projects() {
                 isBlog={false}
                 title="ONN Bikes"
                 tool=" HTML, CSS, JavaScript "
-                description="ONN Bikes is a Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Plans @ Most Affordable Price. Free Helmet & Easy Booking. ONN Bikes are working with all our blood and sweat to create an alternative way of travel by the means of Bike rental services and ONN Bikes also provide excellent transport at very less cost."
+                description="This website is a clone of Onnbikes.com, It is a platform where bikes or scooters can rent bikes at the cheapest price with the most flexible daily, weekly, and monthly bike rental plans and all these facilities are available on our website too, the user can log in by email and mobile and after that, he can book the bike according to his location and he also gets to see different types of bikes and their prices here."
                 link="https://github.com/shivam-singh-au17/project_oonbikes"
                 demoLink="https://onnbikes.vercel.app/"
               />
@@ -64,7 +64,7 @@ function Projects() {
                 isBlog={false}
                 title="Animoto"
                 tool=" HTML, CSS "
-                description="Animoto is a cloud-based video creation service that produces video from photos, video clips, and music into video slideshows, and customized web-based presentations. Animoto is based in New York City with an office in San Francisco.Join millions of people creating and sharing videos with our easy drag and drop video maker. No experience necessary."
+                description="This website is a clone of Animoto.com and it is a cloud-based video creation service that produces video from photos, video clips, and music into video slideshows. This was the first project in my web development journey and it was made with just HTML and CSS. On our clone website, any user can see many types of video templates and can see the pricing of how much is charged for making a video."
                 link="https://github.com/shivam-singh-au17/Project_Damodar"
                 demoLink="https://project-damodar.vercel.app/"
               />
