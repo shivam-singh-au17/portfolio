@@ -4,7 +4,7 @@ import {
     SiRedux,
     SiTypescript,
     SiSass,
-    // SiStyledcomponents,
+    // SiStyledComponents,
     // SiMaterialui,
 } from "react-icons/si";
 import {
@@ -43,7 +43,7 @@ function FrontEnd() {
                 <SiSass /><span>Sass</span>
             </Col>
             {/* <Col xs={4} md={2} className="tech-icons">
-                <SiStyledcomponents />
+                <SiStyledComponents /><span>StyledComponents</span>
             </Col> */}
         </Row>
     );
