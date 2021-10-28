@@ -480,8 +480,6 @@ html {
   background-image: var(--image-gradient), url(./Assets/about-bg.svg);
   background-position: top center;
   background-attachment: fixed;
-  position: relative;
-  bottom: 5px;
 }
 
 
