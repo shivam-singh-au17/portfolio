@@ -20,7 +20,7 @@ function Contact() {
     return (
         <div className="contact-background">
             <Particle />
-            <Container fluid className="home-about-section" id="about">
+            <Container fluid className="home-contect-section" id="about">
                 <Row>
                     <Col md={12} className="home-about-social">
                         <h1 style={{ fontSize: "2.3em", marginTop: "61px" }}>Find Me On</h1>
@@ -38,7 +38,7 @@ function Contact() {
                                 >
                                     <IoCall />
                                 </span>
-                                <span className="link-text-css" onClick={() => setCallme(true)}>+916306518466<span style={{ opacity: 0 }}>-|-</span></span>
+                                <span className="link-text-css" onClick={() => setCallme(true)}>+91 6306518466<span style={{ opacity: 0 }}>916306518466</span></span>
                             </li>
                             <li className="social-icons-contect third">
                                 <MyModal
@@ -51,7 +51,7 @@ function Contact() {
                                 >
                                     <CgMail />
                                 </span>
-                                <span className="link-text-css" onClick={() => setModalShow(true)}>shivamsingh4458<span style={{ opacity: 0 }}>||</span></span>
+                                <span className="link-text-css" onClick={() => setModalShow(true)}>shivamsingh4458@gmail.com<span style={{ opacity: 0 }}>|||</span></span>
                             </li>
                             <li className="social-icons-contect fifth">
                                 <a
@@ -62,7 +62,7 @@ function Contact() {
                                 >
                                     <AiFillGithub />
                                 </a>
-                                <a className="link-text-css" target="_blank" rel="noreferrer" href="https://github.com/shivam-singh-au17">shivam-singh-au17</a>
+                                <a className="link-text-css" target="_blank" rel="noreferrer" href="https://github.com/shivam-singh-au17">github.com/shivam-singh-au17</a>
                             </li>
                         </ul>
                     </Col>
@@ -77,7 +77,7 @@ function Contact() {
                                 >
                                     <FaLinkedinIn />
                                 </a>
-                                <a className="link-text-css" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/shivamsingh4458/">shivamsingh4458<span style={{ opacity: 0 }}>--</span></a>
+                                <a className="link-text-css" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/shivamsingh4458/">linkedin.com/shivamsingh4458<span style={{ opacity: 0 }}>||</span></a>
                             </li>
                             <li className="social-icons-contect fourth">
                                 <a
@@ -88,7 +88,7 @@ function Contact() {
                                 >
                                     <AiOutlineTwitter />
                                 </a>
-                                <a className="link-text-css" target="_blank" rel="noreferrer" href="https://twitter.com/SHIVAMSINGH4458">SHIVAMSINGH4458</a>
+                                <a className="link-text-css" target="_blank" rel="noreferrer" href="https://twitter.com/SHIVAMSINGH4458">twitter.com/SHIVAMSINGH4458<span style={{ opacity: 0 }}>|</span></a>
                             </li>
                             <li className="social-icons-contect sixth">
                                 <Message show={message} onHide={() => setMessage(false)} />
@@ -98,7 +98,7 @@ function Contact() {
                                 >
                                     <MdMessage />
                                 </span>
-                                <span className="link-text-css" onClick={() => setMessage(true)}>Send Me Message<span style={{ opacity: 0 }}>||</span></span>
+                                <span className="link-text-css" onClick={() => setMessage(true)}>Click Here To Send Me Message<span style={{ opacity: 0 }}></span></span>
                             </li>
                         </ul>
                     </Col>

@@ -81,7 +81,7 @@ html {
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
+  padding: 0.5rem 2rem !important;
   font-size: 1.2rem !important;
 }
 
@@ -152,7 +152,9 @@ html {
 }
 
 .logo {
-  height: 3em !important;
+  height: 2.5em !important;
+  position: relative;
+  bottom: 5px;
 }
 
 .navbar-nav .nav-link {
@@ -358,21 +360,29 @@ html {
 
 .home-about-section {
   position: relative !important;
-  padding-bottom: 45px !important;
-  padding-top: 39px !important;
-  max-width: 70%;
+  padding-bottom: 30px !important;
+  padding-top: 20px !important;
+  max-width: 80%;
+  margin: auto;
+}
+
+.home-contect-section {
+  position: relative !important;
+  padding-bottom: 49px !important;
+  padding-top: 35px !important;
+  max-width: 90%;
   margin: auto;
 }
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
-  padding-bottom: 20px !important;
+  padding-top: 90px !important;
+  padding-bottom: 18px !important;
   text-align: center;
 }
 
 .home-about-body {
-  padding-top: 50px;
+  padding-top: 30px;
   font-size: 1.4em !important;
   text-align: center;
 }
@@ -465,12 +475,13 @@ html {
 }
 
 .my-img-home {
-  box-shadow: 15px 15px 24px -10px #0180f9;
+  /* box-shadow: 15px 15px 24px -10px #0180f9; */
   border-radius: 50%;
-  /* background-image: var(--image-gradient), url(./Assets/home-bg.svg);
+  background-image: var(--image-gradient), url(./Assets/about-bg.svg);
   background-position: top center;
-  background-attachment: fixed; */
+  background-attachment: fixed;
 }
+
 
 @media (max-width: 767px) {
   .my-img-home-div {
@@ -1048,13 +1059,13 @@ html {
   animation-delay: 0.5s;
 }
 .second-blog {
-  animation-delay: 1.5s;
+  animation-delay: 1s;
 }
 .third-blog {
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
 }
 .fourth-blog {
-  animation-delay: 3.5s;
+  animation-delay: 2s;
 }
 /* .fifth {
   animation-delay: 1.2s;
