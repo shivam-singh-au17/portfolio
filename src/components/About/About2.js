@@ -12,29 +12,17 @@ function About2() {
                         </h1>
                         <p className="home-about-body">
                             <span className="myabout first-about">
-                                A passionate programmer, born and brought up in India. I am a Full Stack Web Developer with <b className="purple"> React.js, Redux, Express.js, Node.js, NestJS and SQL </b> as my tech stack.
+                                Hi Everyone, I am <b className="purple">Shivam Singh </b> Full Stack Web Developer based in <b className="purple">Mirzapur, India. </b> I have a passion for coding and get most enjoyment from <b className="purple"> solving problems </b> by writing elegant/maintainable code and sharing knowledge. I love learning so I'm always keeping up to date by <b className="purple"> watching conference talks, listening to podcasts and reading blog posts. </b>
                             </span>
                             <br />
                             <br />
                             <span className="myabout second-about">
-                                I fell in love with programming and <b className="purple">“I have learnt a lot”</b>
+                                I am fluent in classics like <i> <b className="purple"> Javascript, Python and MERN stack </b> </i> and I love learning about new technologies, what problems are they solving and How can I use them to <b className="purple"> build better and scalable products. </b>
                             </span>
                             <br />
                             <br />
                             <span className="myabout third-about">
-                                My field of Interest's are building new &nbsp;
-                                <i>
-                                    <b className="purple">Web Technologies and Products </b> and
-                                    also in areas related to{" "}
-                                    <b className="purple">
-                                        Deep Learning and Natural Launguage Processing.
-                                    </b>
-                                </i>
-                            </span>
-                            <br />
-                            <br />
-                            <span className="myabout fourth-about">
-                                I love learning about new technologies, what problems are they solving and How can <b className="purple">I use them to build better and scalable products.</b>
+                                I enjoy creating things that live on the internet, Whenever possible, I also apply my passion for developing products with <i> <b className="purple"> Modern Javascript Frameworks </b> </i>  like <i> <b className="purple"> Node.js and React.js. </b> </i> My goal is to always build products that provide <b className="purple"> pixel-perfect, performant experiences.</b>
                             </span>
                         </p>
                     </Col>
