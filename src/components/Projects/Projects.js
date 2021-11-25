@@ -8,6 +8,7 @@ import project01 from "../../Assets/Projects/project01.png";
 import project02 from "../../Assets/Projects/project02.png";
 import project03 from "../../Assets/Projects/project03.png";
 import project05 from "../../Assets/Projects/project05.png";
+import project06 from "../../Assets/Projects/project06.png";
 
 function Projects() {
   return (
@@ -71,7 +72,7 @@ function Projects() {
               />
             </Col>
 
-            <Col md={8} className="project-card second-blog">
+            <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={project05}
                 isBlog={false}
@@ -80,6 +81,18 @@ function Projects() {
                 description="This is a website created by me, in this website I have told about the Shravasti district of Uttar Pradesh, I completed my diploma from here and I like this place very much, so I tried to make a small website on it. I have told about some of the famous temples there and how to go to Shravasti and what is available in Shravasti and how is Shravasti I have talked about in this website and this was my first website which was just HTML was created by CSS and I learned a lot from it."
                 link="https://github.com/shivam-singh-au17/shravasti-by-shivam-singh"
                 demoLink="https://shravasti-by-shivam-singh.vercel.app/"
+              />
+            </Col>
+
+            <Col md={6} className="project-card second-blog">
+              <ProjectCard
+                imgPath={project06}
+                isBlog={false}
+                title="Hackathon"
+                tool=" HTML, CSS, SASS, Bootstrap "
+                description="The goal of a hackathon is to create functioning software or hardware by the end of the event and this is my first hackathon. We created such functionality in this hackathon where people can see the value of courier delivery by different types of courier companies at one place and any user can send their courier at their convenience with the company in which they benefit."
+                link="https://github.com/shivam-singh-au17/hackathon_App"
+                demoLink="https://hackathonapp.vercel.app/"
               />
             </Col>
 
