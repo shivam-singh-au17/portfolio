@@ -29,7 +29,7 @@ function Projects() {
                 imgPath={project02}
                 isBlog={false}
                 title="Medium"
-                tool=" HTML, CSS, JavaScript, React, Express.JS, MongoDB, NodeJS, EJS, Bootstrap "
+                tool=" HTML, CSS, JavaScript, React, Express.JS, MongoDB, NodeJS, EJS, MaterialUI, Bootstrap "
                 description="This website is a clone of Medium.com, it is a platform where a person can write and host a professional blog and any user comes to my clone website then he can log in by his email and after logging in he can write a blog and he also gets facility that he can read blogs written by others and he can also host his blog, his blog is visible to all users."
                 link="https://github.com/shivam-singh-au17/ProjectMediumClone"
                 demoLink="https://mediumapp.vercel.app/"
@@ -89,7 +89,7 @@ function Projects() {
                 imgPath={project06}
                 isBlog={false}
                 title="Hackathon"
-                tool=" HTML, CSS, SASS, Bootstrap "
+                tool=" HTML, CSS, JavaScript, React, Express.JS, MongoDB, NodeJS, Bootstrap, MaterialUI "
                 description="The goal of a hackathon is to create functioning software or hardware by the end of the event and this is my first hackathon. We created such functionality in this hackathon where people can see the value of courier delivery by different types of courier companies at one place and any user can send their courier at their convenience with the company in which they benefit."
                 link="https://github.com/shivam-singh-au17/hackathon_App"
                 demoLink="https://hackathonapp.vercel.app/"
