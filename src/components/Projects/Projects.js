@@ -9,6 +9,8 @@ import project02 from "../../Assets/Projects/project02.png";
 import project03 from "../../Assets/Projects/project03.png";
 import project05 from "../../Assets/Projects/project05.png";
 import project06 from "../../Assets/Projects/project06.png";
+import project07 from "../../Assets/Projects/project07.png";
+import project08 from "../../Assets/Projects/project08.png";
 
 function Projects() {
   return (
@@ -93,6 +95,32 @@ function Projects() {
                 description="The goal of a hackathon is to create functioning software or hardware by the end of the event and this is my first hackathon. We created such functionality in this hackathon where people can see the value of courier delivery by different types of courier companies at one place and any user can send their courier at their convenience with the company in which they benefit."
                 link="https://github.com/shivam-singh-au17/hackathon_App"
                 demoLink="https://hackathonapp.vercel.app/"
+              />
+            </Col>
+
+
+            <Col md={6} className="project-card second-blog">
+              <ProjectCard
+                imgPath={project07}
+                isBlog={false}
+                title="Color Generator"
+                tool=" HTML, CSS, JavaScript "
+                description="This is a random color generator website where you can choose the color of your choice by refreshing the page again and again as per your convenience. You get to see more than 200 colors at a time here. You can use this website to choose colors for your project and your website."
+                link="https://github.com/shivam-singh-au17/Color_Generator"
+                demoLink="https://shivam-singh-au17.github.io/Color_Generator/"
+              />
+            </Col>
+
+
+            <Col md={6} className="project-card second-blog">
+              <ProjectCard
+                imgPath={project08}
+                isBlog={false}
+                title="Color Game"
+                tool=" HTML, CSS "
+                description="This is a kind of entertaining website where you can see whether you are able to write the letter of your name in the given time interval or not. In this game, where you move the mouse, the box will bright and it will be extinguished again after some time, then within that time you are able to write the word of your name or not, you can play this type of game here."
+                link="https://github.com/shivam-singh-au17/ColorGame"
+                demoLink="https://shivam-singh-au17.github.io/ColorGame/"
               />
             </Col>
 
