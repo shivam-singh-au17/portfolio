@@ -104,7 +104,7 @@ const Message = (props) => {
                 as="textarea"
                 name="message"
                 rows={3}
-                placeholder="Please Type Or Speak Your Message Here"
+                placeholder="Please Type Or Speak Your Message"
                 id="recordSearchMessage"
                 onClick={recordSearchMessage}
               />
