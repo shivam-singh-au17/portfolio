@@ -2,20 +2,18 @@ import React from "react";
 import { Modal, Form, Button } from "react-bootstrap";
 
 const Message = (props) => {
+  const recordSearchName = () => {
+    const SpeechRecognition =
+      window.SpeechRecognition || window.webkitSpeechRecognition;
+    const recognition = new SpeechRecognition();
+    recognition.lang = "en-GB";
 
-
-    const recordSearchName = () => {
-      const SpeechRecognition =
-        window.SpeechRecognition || window.webkitSpeechRecognition;
-      const recognition = new SpeechRecognition();
-      recognition.lang = "en-GB";
-
-      recognition.onresult = function (event) {
-        document.getElementById("recordSearchName").value +=
-          event.results[0][0].transcript;
-      };
-      recognition.start();
+    recognition.onresult = function (event) {
+      document.getElementById("recordSearchName").value +=
+        event.results[0][0].transcript;
     };
+    recognition.start();
+  };
 
   const recordSearchEmail = () => {
     const SpeechRecognition =
@@ -60,8 +58,7 @@ const Message = (props) => {
             id="contained-modal-title-vcenter"
             style={{ fontSize: ".4em", padding: "20px 50px" }}
           >
-            {/* <span style={{ opacity: "0" }}>---------------</span> */}
-            {"I will be glad to receive your message."}
+            <span>I will be glad to receive your message.</span>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="Home-Message-Img">
@@ -108,6 +105,13 @@ const Message = (props) => {
                 id="recordSearchMessage"
                 onClick={recordSearchMessage}
               />
+              <span className="myMessageWarniingColor">
+                <span style={{ color: "red" }}>&#9755; </span>
+                <span className="myMessageWarniing">
+                  If you want to write anything by speaking, then for that you
+                  have to click on the box.
+                </span>
+              </span>
             </Form.Group>
             <Button type="submit">Send Message</Button>
           </Form>
