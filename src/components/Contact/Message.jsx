@@ -2,6 +2,47 @@ import React from "react";
 import { Modal, Form, Button } from "react-bootstrap";
 
 const Message = (props) => {
+
+
+    const recordSearchName = () => {
+      const SpeechRecognition =
+        window.SpeechRecognition || window.webkitSpeechRecognition;
+      const recognition = new SpeechRecognition();
+      recognition.lang = "en-GB";
+
+      recognition.onresult = function (event) {
+        document.getElementById("recordSearchName").value =
+          event.results[0][0].transcript;
+      };
+      recognition.start();
+    };
+
+  const recordSearchEmail = () => {
+    const SpeechRecognition =
+      window.SpeechRecognition || window.webkitSpeechRecognition;
+    const recognition = new SpeechRecognition();
+    recognition.lang = "en-GB";
+
+    recognition.onresult = function (event) {
+      document.getElementById("recordSearchEmail").value =
+        event.results[0][0].transcript;
+    };
+    recognition.start();
+  };
+
+  const recordSearchMessage = () => {
+    const SpeechRecognition =
+      window.SpeechRecognition || window.webkitSpeechRecognition;
+    const recognition = new SpeechRecognition();
+    recognition.lang = "en-GB";
+
+    recognition.onresult = function (event) {
+      document.getElementById("recordSearchMessage").value =
+        event.results[0][0].transcript;
+    };
+    recognition.start();
+  };
+
   return (
     <>
       <Modal
@@ -36,7 +77,9 @@ const Message = (props) => {
                 required
                 type="text"
                 name="name"
-                placeholder="Please Write Your Name"
+                placeholder="Please Type Or Speak Your Name"
+                id="recordSearchName"
+                onClick={recordSearchName}
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -46,7 +89,9 @@ const Message = (props) => {
                 required
                 type="email"
                 name="_replyto"
-                placeholder="Please Write Your Email"
+                placeholder="Please Type Or Speak Your Email"
+                id="recordSearchEmail"
+                onClick={recordSearchEmail}
               />
             </Form.Group>
             <Form.Group
@@ -59,7 +104,9 @@ const Message = (props) => {
                 as="textarea"
                 name="message"
                 rows={3}
-                placeholder="Please Type Your Message Here"
+                placeholder="Please Type Or Speak Your Message Here"
+                id="recordSearchMessage"
+                onClick={recordSearchMessage}
               />
             </Form.Group>
             <Button type="submit">Send Message</Button>
