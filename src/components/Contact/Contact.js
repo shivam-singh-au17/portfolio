@@ -23,7 +23,7 @@ function Contact() {
             <Container fluid className="home-contect-section" id="about">
                 <Row>
                     <Col md={12} className="home-about-social">
-                        <h1 style={{ fontSize: "2.3em", marginTop: "61px" }}>Find Me On</h1>
+                        <h1 style={{ fontSize: "2.3em", marginTop: "59px" }}>Find Me On</h1>
                         <p style={{ fontSize: "1.1em" }}>
                             Feel free to <span className="purple">connect </span>with me
                         </p>
