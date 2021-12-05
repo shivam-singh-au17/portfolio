@@ -11,7 +11,7 @@ const Message = (props) => {
       recognition.lang = "en-GB";
 
       recognition.onresult = function (event) {
-        document.getElementById("recordSearchName").value =
+        document.getElementById("recordSearchName").value +=
           event.results[0][0].transcript;
       };
       recognition.start();
@@ -24,7 +24,7 @@ const Message = (props) => {
     recognition.lang = "en-GB";
 
     recognition.onresult = function (event) {
-      document.getElementById("recordSearchEmail").value =
+      document.getElementById("recordSearchEmail").value +=
         event.results[0][0].transcript;
     };
     recognition.start();
@@ -37,7 +37,7 @@ const Message = (props) => {
     recognition.lang = "en-GB";
 
     recognition.onresult = function (event) {
-      document.getElementById("recordSearchMessage").value =
+      document.getElementById("recordSearchMessage").value +=
         event.results[0][0].transcript;
     };
     recognition.start();
