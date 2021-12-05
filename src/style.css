@@ -1101,3 +1101,14 @@ html {
   opacity: 0;
   animation: fadeInUp 1s ease-in-out 0s forwards;
 }
+
+
+.myMessageWarniingColor{
+  color: yellow;
+}
+
+.myMessageWarniing{
+  font-size: 1rem !important;
+  position: relative;
+  top: -4px;
+}
