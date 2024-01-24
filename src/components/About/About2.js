@@ -12,17 +12,17 @@ function About2() {
                         </h1>
                         <p className="home-about-body">
                             <span className="myabout first-about">
-                                Hello, I am Shivam Singh, a Full Stack Web Developer based in Mirzapur, Uttar Pradesh, India. As an experienced web developer, I possess a strong foundation in a wide range of technologies and frameworks. I am well-versed in both front-end and back-end development, with expertise in creating dynamic and engaging web applications.
+                                Hello, I'm Shivam Singh, a seasoned Full Stack Web Developer based in Mirzapur, Uttar Pradesh, India. With a wealth of experience in web development, I bring a solid foundation in diverse technologies and frameworks, specializing in both front-end and back-end development to craft dynamic and captivating web applications.
                             </span>
                             <br />
                             <br />
                             <span className="myabout second-about">
-                                My expertise encompasses a deep understanding of JavaScript, enabling me to leverage frameworks like React, Redux, AdonisJS, ExpressJS, and Node.js to create robust and scalable web solutions. I excel in database management, working seamlessly with Mysql, PostgreSql, and MongoDB to efficiently store and retrieve data for applications. Additionally, I have hands-on experience in implementing microservices architecture, contributing to the development of modular and scalable systems.
+                                My mastery extends to a profound understanding of JavaScript, allowing me to harness frameworks such as React, Redux, AdonisJS, ExpressJS, and Node.js, culminating in the creation of robust and scalable web solutions. Proficient in database management, I seamlessly navigate Mysql, PostgreSql, and MongoDB to efficiently store and retrieve data for applications. Furthermore, my hands-on experience in implementing microservices architecture contributes to the development of modular and scalable systems.
                             </span>
                             <br />
                             <br />
                             <span className="myabout third-about">
-                                In summary, I am a dedicated web developer driven by a strong passion for problem-solving and a continuous pursuit of knowledge. My proficiency in JavaScript, React, Node.js, MongoDB, microservices, and other technologies, combined with an adaptive mindset to stay abreast of industry advancements, empowers me to deliver high-quality web applications that not only meet but exceed client expectations.
+                                In essence, I am a committed web developer propelled by a fervent passion for problem-solving and an unwavering commitment to knowledge advancement. My proficiency in JavaScript, React, Node.js, MongoDB, microservices, and other cutting-edge technologies, coupled with an adaptive mindset to stay abreast of industry advancements, empowers me to deliver web applications of exceptional quality, consistently surpassing client expectations.
                             </span>
                         </p>
                     </Col>
