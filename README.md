@@ -1,3 +1,3 @@
-# portfolio
+# Portfolio - Shivam Singh
 
-This is my portfolio where you can know about me, know about my work, what types of projects I have done so far in my web development journey, you can see here what kind of technology I have done You have learned the skill, you get to see all this here and at the same time, you can also contact me through this.
+## Welcome to my portfolio, your gateway to discovering more about me and exploring my body of work in web development. Here, you'll gain insights into the diverse projects I've undertaken, offering a glimpse into the spectrum of technologies I've mastered. Whether you're interested in understanding my skill set, exploring my projects, or simply reaching out to connect, this platform serves as a comprehensive showcase of my journey and expertise. Feel free to navigate through the various sections to get a holistic view of my capabilities, and don't hesitate to reach out for any inquiries or collaboration opportunities.
