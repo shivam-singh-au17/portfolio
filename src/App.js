@@ -17,12 +17,12 @@ import Skill from "./components/Skill/Skill";
 
 function App() {
   const [load, upadateLoad] = useState(true);
-  
+
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
-    
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -31,8 +31,16 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <ScrollToTop />
-        <Switch>
+        {/* <ScrollToTop /> */}
+        <Home />
+        <About />
+        <Skill />
+        <Projects />
+        <Resume />
+        <Blogs />
+        <Contact />
+
+        {/* <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
@@ -40,7 +48,7 @@ function App() {
           <Route path="/resume" component={Resume} />
           <Route path="/blog" component={Blogs} />
           <Route path="/contact" component={Contact} />
-        </Switch>
+        </Switch> */}
       </div>
     </Router>
   );

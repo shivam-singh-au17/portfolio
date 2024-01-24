@@ -8,21 +8,21 @@ function About2() {
                 <Row>
                     <Col md={12} className="home-about-description">
                         <h1 style={{ fontSize: "3em" }}>
-                            “About <span className="purple"> me” </span>
+                            <span className="purple">“About  me” </span>
                         </h1>
                         <p className="home-about-body">
                             <span className="myabout first-about">
-                                Hi Everyone, I am <b className="purple">Shivam Singh </b> Full Stack Web Developer based in <b className="purple">Mirzapur, India. </b> I have a passion for coding and get most enjoyment from <b className="purple"> solving problems </b> by writing elegant/maintainable code and sharing knowledge. I love learning so I'm always keeping up to date by <b className="purple"> watching conference talks, listening to podcasts and reading blog posts. </b>
+                                Hello, I am Shivam Singh, a Full Stack Web Developer based in Mirzapur, Uttar Pradesh, India. As an experienced web developer, I possess a strong foundation in a wide range of technologies and frameworks. I am well-versed in both front-end and back-end development, with expertise in creating dynamic and engaging web applications.
                             </span>
                             <br />
                             <br />
                             <span className="myabout second-about">
-                                I am fluent in classics like <i> <b className="purple"> Javascript, Python and MERN stack </b> </i> and I love learning about new technologies, what problems are they solving and How can I use them to <b className="purple"> build better and scalable products. </b>
+                                My expertise encompasses a deep understanding of JavaScript, enabling me to leverage frameworks like React, Redux, AdonisJS, ExpressJS, and Node.js to create robust and scalable web solutions. I excel in database management, working seamlessly with Mysql, PostgreSql, and MongoDB to efficiently store and retrieve data for applications. Additionally, I have hands-on experience in implementing microservices architecture, contributing to the development of modular and scalable systems.
                             </span>
                             <br />
                             <br />
                             <span className="myabout third-about">
-                                I enjoy creating things that live on the internet, Whenever possible, I also apply my passion for developing products with <i> <b className="purple"> Modern Javascript Frameworks </b> </i>  like <i> <b className="purple"> Node.js and React.js. </b> </i> My goal is to always build products that provide <b className="purple"> pixel-perfect, performant experiences.</b>
+                                In summary, I am a dedicated web developer driven by a strong passion for problem-solving and a continuous pursuit of knowledge. My proficiency in JavaScript, React, Node.js, MongoDB, microservices, and other technologies, combined with an adaptive mindset to stay abreast of industry advancements, empowers me to deliver high-quality web applications that not only meet but exceed client expectations.
                             </span>
                         </p>
                     </Col>

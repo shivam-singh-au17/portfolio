@@ -10,7 +10,7 @@ import blog03 from "../../Assets/Blogs/blog03.png";
 
 function Blogs() {
     return (
-        <div className="blog-background">
+        <div className="blog-background activeNavlink" id="scrollBlog">
             <Particle2 />
             <Container fluid className="project-section">
                 <Container>
@@ -57,11 +57,11 @@ function Blogs() {
                             />
                         </Col>
 
-                      
+
                     </Row>
                 </Container>
             </Container>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

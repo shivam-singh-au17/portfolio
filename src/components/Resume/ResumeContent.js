@@ -7,7 +7,8 @@ function ResumeContent(props) {
         {props.title}
       </h5>
       <p>
-        <em>{props.date}</em>
+        {props.company}
+        {props.date}
       </p>
       <ul>
         {props.content.map((value, index) => (

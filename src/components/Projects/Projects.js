@@ -14,8 +14,8 @@ import project08 from "../../Assets/Projects/project08.png";
 
 function Projects() {
   return (
-    <div className="project-background ">
-      <Particle2 />
+    <div className="project-background activeNavlink" id="scrollProjects">
+      {/* <Particle2 /> */}
       <Container fluid className="project-section">
         <Container>
           <h1 className="project-heading">
@@ -127,7 +127,7 @@ function Projects() {
           </Row>
         </Container>
       </Container>
-      <Footer />
+
     </div>
   );
 }

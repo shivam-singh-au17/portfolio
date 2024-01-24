@@ -12,14 +12,15 @@ import { MdMessage } from "react-icons/md";
 import MyModal from "./Modal";
 import Callme from "./Callme";
 import Message from "./Message";
+import Footer from "../Footer";
 
 function Contact() {
     const [modalShow, setModalShow] = React.useState(false);
     const [callme, setCallme] = React.useState(false);
     const [message, setMessage] = React.useState(false);
     return (
-        <div className="contact-background">
-            <Particle />
+        <div className="contact-background activeNavlink" id="scrollContact">
+            {/* <Particle /> */}
             <Container fluid className="home-contect-section" id="about">
                 <Row>
                     <Col md={12} className="home-about-social">
@@ -104,6 +105,7 @@ function Contact() {
                     </Col>
                 </Row>
             </Container>
+            <Footer />
         </div>
     );
 }
