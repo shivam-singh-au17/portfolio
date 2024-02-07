@@ -12,18 +12,18 @@ function About2() {
                         </h1>
                         <p className="home-about-body">
                             <span className="myabout first-about">
-                                Greetings, I'm Shivam Singh, a seasoned Full Stack Web Developer from Mirzapur, Uttar Pradesh, India. With extensive expertise in web development, I specialize in crafting dynamic web applications by leveraging a range of technologies and frameworks for both front-end and back-end development.
+                                Hello, I'm Shivam Singh, a seasoned Full Stack Web Developer based in Mirzapur, Uttar Pradesh, India. With a wealth of experience in web development, I bring a solid foundation in diverse technologies and frameworks, specializing in both front-end and back-end development to craft dynamic and captivating web applications.
                             </span>
                             <br />
                             <br />
                             <span className="myabout second-about">
-                                My mastery lies in JavaScript, enabling me to utilize frameworks like React, Redux, AdonisJS, ExpressJS, and Node.js to create robust web solutions. Proficient in database management, I adeptly handle Mysql, PostgreSql, and MongoDB for efficient data storage and retrieval. Committed to staying at the forefront of industry trends, I continuously enhance my skills to deliver exceptional quality web applications that exceed client expectations.
+                                My skills extend to database management, where I adeptly handle MySQL, PostgreSQL, and MongoDB to efficiently store and retrieve data for applications. My commitment to staying current with industry trends drives me to continuously enhance my knowledge and skills. This dedication, paired with my problem-solving mindset, ensures that I consistently deliver exceptional quality web applications that exceed client expectations.
                             </span>
-                            {/* <br />
+                            <br />
                             <br />
                             <span className="myabout third-about">
-                                In essence, I am a committed web developer propelled by a fervent passion for problem-solving and an unwavering commitment to knowledge advancement. My proficiency in JavaScript, React, Node.js, MongoDB, microservices, and other cutting-edge technologies, coupled with an adaptive mindset to stay abreast of industry advancements, empowers me to deliver web applications of exceptional quality, consistently surpassing client expectations.
-                            </span> */}
+                                In summary, I am a dedicated web developer with a passion for innovation and problem-solving. My expertise in JavaScript, React, Node.js, MongoDB, and other cutting-edge technologies, combined with my commitment to ongoing learning, positions me as a valuable asset in the development of top-notch web solutions.
+                            </span>
                         </p>
                     </Col>
                 </Row>
