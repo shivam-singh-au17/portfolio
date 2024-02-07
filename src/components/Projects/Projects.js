@@ -46,7 +46,7 @@ function Projects() {
                 tool=" HTML, CSS, JavaScript, Express.JS, MongoDB, NodeJS, EJS, Bootstrap "
                 description="This is another clone of my previous project Onnbikes.com In this project all the data is linked to the database and the whole website is built with the help of backend tools. It is a platform where bikes or scooters can rent bikes at the cheapest price with the most flexible daily, weekly, and monthly bike rental plans and all these facilities are available on our website too."
                 link="https://github.com/shivam-singh-au17/BackEndOnnBikes"
-                demoLink="https://onnbikes.herokuapp.com/"
+                demoLink="https://shivam-onnbikes-learn.onrender.com/home"
               />
             </Col>
 
@@ -86,7 +86,21 @@ function Projects() {
               />
             </Col>
 
+
             <Col md={6} className="project-card second-blog">
+              <ProjectCard
+                imgPath={project08}
+                isBlog={false}
+                title="Color Game"
+                tool=" HTML, CSS "
+                description="This is a kind of entertaining website where you can see whether you are able to write the letter of your name in the given time interval or not. In this game, where you move the mouse, the box will bright and it will be extinguished again after some time, then within that time you are able to write the word of your name or not, you can play this type of game here."
+                link="https://github.com/shivam-singh-au17/ColorGame"
+                demoLink="https://shivam-singh-au17.github.io/ColorGame/"
+              />
+            </Col>
+
+
+            {/* <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={project06}
                 isBlog={false}
@@ -109,21 +123,9 @@ function Projects() {
                 link="https://github.com/shivam-singh-au17/Color_Generator"
                 demoLink="https://shivam-singh-au17.github.io/Color_Generator/"
               />
-            </Col>
+            </Col> */}
 
-
-            <Col md={6} className="project-card second-blog">
-              <ProjectCard
-                imgPath={project08}
-                isBlog={false}
-                title="Color Game"
-                tool=" HTML, CSS "
-                description="This is a kind of entertaining website where you can see whether you are able to write the letter of your name in the given time interval or not. In this game, where you move the mouse, the box will bright and it will be extinguished again after some time, then within that time you are able to write the word of your name or not, you can play this type of game here."
-                link="https://github.com/shivam-singh-au17/ColorGame"
-                demoLink="https://shivam-singh-au17.github.io/ColorGame/"
-              />
-            </Col>
-
+            
           </Row>
         </Container>
       </Container>
