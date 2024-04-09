@@ -74,7 +74,7 @@ const Message = (props) => {
                 required
                 type="text"
                 name="name"
-                placeholder="Please Type Or Speak Your Name"
+                placeholder="type or speak your name"
                 id="recordSearchName"
                 onClick={recordSearchName}
               />
@@ -86,7 +86,7 @@ const Message = (props) => {
                 required
                 type="email"
                 name="_replyto"
-                placeholder="Please Type Or Speak Your Email"
+                placeholder="type or speak your email"
                 id="recordSearchEmail"
                 onClick={recordSearchEmail}
               />
@@ -101,15 +101,14 @@ const Message = (props) => {
                 as="textarea"
                 name="message"
                 rows={3}
-                placeholder="Please Type Or Speak Your Message"
+                placeholder="type or speak your message"
                 id="recordSearchMessage"
                 onClick={recordSearchMessage}
               />
               <span className="myMessageWarniingColor">
                 <span style={{ color: "red" }}>&#9755; </span>
                 <span className="myMessageWarniing">
-                  If you want to write anything by speaking, then for that you
-                  have to click on the box.
+                  To initiate voice typing, simply click on the designated box.
                 </span>
               </span>
             </Form.Group>
