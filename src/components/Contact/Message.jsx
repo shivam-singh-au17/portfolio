@@ -58,7 +58,7 @@ const Message = (props) => {
             id="contained-modal-title-vcenter"
             style={{ fontSize: ".4em", padding: "20px 50px" }}
           >
-            <span>I will be glad to receive your message.</span>
+            <span>I look forward to receiving your message.</span>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="Home-Message-Img">
