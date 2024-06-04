@@ -56,7 +56,7 @@ function Resume() {
               <Resumecontent
                 title="Junior Back-End Developer || MERN"
                 company="The DeveLearn Institute "
-                date="( Feb 2022 - Dec 2022 )"
+                date="( Feb 2021 - Dec 2021 )"
                 content={[
                   "Developed the Back-End of multi-tenant websites using a microservices architecture.",
                   "Conducted a thorough study of data structures to propose algorithmic improvements and implemented new features accordingly.",
