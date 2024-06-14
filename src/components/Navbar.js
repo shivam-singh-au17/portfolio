@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo_new.png";
+import logo from "../Assets/logo_new2.png";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
