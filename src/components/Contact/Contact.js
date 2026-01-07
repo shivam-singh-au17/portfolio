@@ -22,10 +22,10 @@ function Contact() {
         <div className="contact-background activeNavlink" id="scrollContact">
             {/* <Particle /> */}
             <Container fluid className="home-contect-section" id="about">
-                <Row>
+                <Row className="justify-content-center">
                     <Col md={12} className="home-about-social">
-                        <h1 style={{ fontSize: "2.3em", marginTop: "59px" }}>Find Me On</h1>
-                        <p style={{ fontSize: "1.1em" }}>
+                        <h1 style={{ fontSize: "2.6em", marginTop: "0px", marginBottom: "20px" }}>Find Me On</h1>
+                        <p style={{ fontSize: "1.2em", marginBottom: "10px" }}>
                             Feel free to <span className="purple">connect </span>with me
                         </p>
                     </Col>
@@ -39,7 +39,7 @@ function Contact() {
                                 >
                                     <IoCall />
                                 </span>
-                                <span className="link-text-css" onClick={() => setCallme(true)}>+91 6306518466<span style={{ opacity: 0 }}>916306518466</span></span>
+                                <span className="link-text-css" onClick={() => setCallme(true)}>+91 6306518466</span>
                             </li>
                             <li className="social-icons-contect third">
                                 <MyModal
@@ -52,7 +52,7 @@ function Contact() {
                                 >
                                     <CgMail />
                                 </span>
-                                <span className="link-text-css" onClick={() => setModalShow(true)}>shivamsingh4458@gmail.com<span style={{ opacity: 0 }}>|||</span></span>
+                                <span className="link-text-css" onClick={() => setModalShow(true)}>shivamsingh4458@gmail.com</span>
                             </li>
                             <li className="social-icons-contect fifth">
                                 <a
@@ -78,7 +78,7 @@ function Contact() {
                                 >
                                     <FaLinkedinIn />
                                 </a>
-                                <a className="link-text-css" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/shivamsingh4458/">linkedin.com/shivamsingh4458<span style={{ opacity: 0 }}>||</span></a>
+                                <a className="link-text-css" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/shivamsingh4458/">linkedin.com/shivamsingh4458</a>
                             </li>
                             <li className="social-icons-contect fourth">
                                 <a
@@ -89,7 +89,7 @@ function Contact() {
                                 >
                                     <AiOutlineTwitter />
                                 </a>
-                                <a className="link-text-css" target="_blank" rel="noreferrer" href="https://twitter.com/SHIVAMSINGH4458">twitter.com/SHIVAMSINGH4458<span style={{ opacity: 0 }}>|</span></a>
+                                <a className="link-text-css" target="_blank" rel="noreferrer" href="https://twitter.com/SHIVAMSINGH4458">twitter.com/SHIVAMSINGH4458</a>
                             </li>
                             <li className="social-icons-contect sixth">
                                 <Message show={message} onHide={() => setMessage(false)} />
@@ -99,7 +99,7 @@ function Contact() {
                                 >
                                     <MdMessage />
                                 </span>
-                                <span className="link-text-css" onClick={() => setMessage(true)}>Click Here To Send Me Message<span style={{ opacity: 0 }}></span></span>
+                                <span className="link-text-css" onClick={() => setMessage(true)}>Click Here To Send Me Message</span>
                             </li>
                         </ul>
                     </Col>

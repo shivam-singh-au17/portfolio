@@ -1,11 +1,15 @@
 html {
-  --section-background-color: linear-gradient(to bottom left,
-      rgba(58, 0, 8, 0.582),
-      rgba(17, 1, 65, 0.904));
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(58, 0, 8, 0.582),
+    rgba(17, 1, 65, 0.904)
+  );
 
-  --image-gradient: linear-gradient(to bottom left,
-      rgba(58, 0, 8, 0.582),
-      rgba(17, 1, 65, 0.904));
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(58, 0, 8, 0.582),
+    rgba(17, 1, 65, 0.904)
+  );
 
   --imp-text-color: #0095ff;
 }
@@ -13,8 +17,6 @@ html {
 .purple {
   color: var(--imp-text-color) !important;
 }
-
-
 
 /* for background */
 .App {
@@ -24,9 +26,6 @@ html {
   background-attachment: fixed;
   overflow-x: hidden;
 }
-
-
-
 
 /* --------- */
 /*  Preloader */
@@ -93,8 +92,11 @@ html {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.5rem 2rem !important;
   font-size: 1.2rem !important;
-  box-shadow: rgb(255 0 200 / 27%) 0px 0px 100px -20px, rgba(63, 3, 75, 0.24) 0px 0px 60px -30px, rgba(165, 83, 150, 0.867) 0px -0px 6px 0px inset;
+  box-shadow: rgb(255 0 200 / 27%) 0px 0px 100px -20px,
+    rgba(63, 3, 75, 0.24) 0px 0px 60px -30px,
+    rgba(165, 83, 150, 0.867) 0px -0px 6px 0px inset;
   background: transparent !important;
+  z-index: 1000 !important;
 }
 
 .navbar-toggler {
@@ -154,6 +156,7 @@ html {
     padding: 1rem !important;
     font-size: 1.4rem !important;
     background-color: #270123 !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
   }
 
   .navbar-nav .nav-item a::after {
@@ -278,24 +281,23 @@ html {
 }
 
 .home-header {
-  padding-top: 40px !important;
+  padding-top: 60px !important;
+  padding-bottom: 20px !important;
 }
 
 .home-section {
-  /* position: relative; */
-  /* z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/about-bg.svg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 60px !important;
+  padding-top: 140px !important;
 }
 
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .heading {
@@ -329,11 +331,102 @@ html {
   color: #0095ff !important;
 }
 
+/* Tablet responsive design */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-content {
+    padding: 6rem 0 2rem !important;
+  }
+
+  .heading {
+    font-size: 2em !important;
+    padding-left: 30px !important;
+  }
+
+  .heading-name {
+    font-size: 2.4em !important;
+    padding-left: 30px !important;
+  }
+
+  .sub-heading-name {
+    font-size: 1.2em !important;
+    padding-left: 30px !important;
+  }
+
+  .Typewriter__wrapper {
+    font-size: 1.8em !important;
+  }
+
+  .home-contect-section {
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+  }
+
+  .home-about-social > h1 {
+    font-size: 2.2em !important;
+  }
+
+  .social-icons-contect {
+    max-width: 100%;
+  }
+
+  .link-text-css {
+    font-size: 1em !important;
+  }
+
+  .home-social-icons {
+    min-width: 55px !important;
+    height: 55px !important;
+    font-size: 2em !important;
+  }
+
+  .project-section,
+  .about-section,
+  .resume-section {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .skillContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .home-section {
+    padding-top: 135px !important;
+  }
+}
+
 @media (max-width: 767px) {
+  .home-content {
+    padding: 5rem 0 2rem !important;
+    text-align: center !important;
+  }
+
+  .home-section {
+    padding-top: 145px !important;
+  }
+
+  .heading,
+  .heading-name,
+  .sub-heading-name {
+    padding-left: 0 !important;
+  }
+
+  .heading {
+    font-size: 1.8em !important;
+  }
+
+  .heading-name {
+    font-size: 2em !important;
+  }
+
+  .sub-heading-name {
+    font-size: 1.1em !important;
+  }
+
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    /* position: absolute !important; */
   }
 
   .Typewriter__cursor {
@@ -348,7 +441,6 @@ html {
   background-position: top center;
   background-attachment: fixed;
 } */
-
 
 /* .Skill-background {
   position: relative;
@@ -392,19 +484,20 @@ html {
 
 .home-about-section {
   position: relative !important;
-  padding-bottom: 30px !important;
-  padding-top: 0px !important;
-  max-width: 80%;
-  margin: auto;
+  padding-bottom: 60px !important;
+  padding-top: 40px !important;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
 
 .home-contect-section {
   position: relative !important;
-  padding-bottom: 49px !important;
-  padding-top: 5px !important;
-  max-width: 90%;
-  margin: auto;
+  padding-bottom: 80px !important;
+  padding-top: 60px !important;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .home-about-description {
@@ -415,50 +508,48 @@ html {
 }
 
 .home-about-body {
-  padding-top: 36px;
-  font-size: 1.38em !important;
-  line-height: 1.75em !important;
-  letter-spacing: .02em;
+  padding-top: 40px;
+  font-size: 1.3em !important;
+  line-height: 1.8em !important;
+  letter-spacing: 0.02em;
   text-align: center;
-  font-weight: lighter !important;
+  font-weight: 400 !important;
 }
-
-
-
-
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   color: white !important;
 }
 
 .home-about-social-links {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
   justify-content: center !important;
-  padding-top: 15px !important;
-  /* display: inline-block !important; */
-  position: relative !important;
+  padding-top: 20px !important;
   padding-inline-start: 0 !important;
+  gap: 15px !important;
+  list-style: none !important;
 }
 
 .home-social-icons {
   cursor: pointer;
   position: relative !important;
-  display: inline-block !important;
-  min-width: 65px !important;
-  height: 65px !important;
-  margin: 25px;
-  /* text-align: center !important; */
-  font-size: 2.5em !important;
-  line-height: 1.4em !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 60px !important;
+  height: 60px !important;
+  margin: 0;
+  font-size: 2.2em !important;
+  line-height: 1 !important;
   background: rgba(255, 0, 106, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+  flex-shrink: 0;
 }
-
-
-
-
 
 .home-social-icons::before {
   content: "";
@@ -492,65 +583,67 @@ html {
 }
 
 .social-icons-contect {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 10px 20px;
   list-style: none;
   display: flex;
-  /* justify-content: center; */
+  justify-content: flex-start;
   align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .link-text-css {
   text-align: left;
-  font-size: 1.3em !important;
+  font-size: 1.15em !important;
   color: white;
   cursor: pointer;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  flex: 1;
+  word-break: break-word;
 }
 
-
-@media (max-width:420px) {
-  .home-about-social>h1 {
-    font-size: 2rem !important;
+@media (max-width: 420px) {
+  .home-about-social > h1 {
+    font-size: 1.8rem !important;
+    margin-top: 30px !important;
   }
 
-  .home-contect-section>.row>:last-child {
-    margin-top: -30px !important;
-  }
-
-  .home-contect-section>.row>:last-child>:last-child {
-    margin-bottom: 80px !important;
+  .home-contect-section {
+    padding-top: 30px !important;
+    padding-bottom: 40px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
   .home-about-social {
     max-width: 100% !important;
-    overflow: hidden;
-    margin: 0;
-    padding: 0 !important;
+    padding: 20px 10px !important;
+  }
+
+  .home-about-social-links {
+    padding-top: 15px !important;
+    gap: 10px !important;
   }
 
   .social-icons-contect {
-    padding: 0 !important;
-    gap: 15px;
+    padding: 8px 10px !important;
+    gap: 10px !important;
+    max-width: 100% !important;
+    flex-wrap: nowrap !important;
   }
 
   .home-social-icons {
-    margin: 20px 0;
-    height: 35px !important;
-    min-width: 35px !important;
-    font-size: inherit !important;
-    padding: 5px;
-  }
-
-  .home-social-icons>* {
-    height: 100% !important;
-    width: 100% !important;
+    height: 45px !important;
+    min-width: 45px !important;
+    font-size: 1.5em !important;
   }
 
   .link-text-css {
-    width: 80%;
-    font-size: 15px !important;
-    letter-spacing: 1px;
+    font-size: 0.9em !important;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
   }
 }
 
@@ -571,7 +664,6 @@ html {
   background-attachment: fixed;
 }
 
-
 @media (max-width: 767px) {
   .my-img-home-div {
     margin: auto;
@@ -591,7 +683,6 @@ html {
   padding-inline-start: 0 !important;
   padding-left: 35px !important;
   cursor: pointer !important;
-
 }
 
 .home-social-iconsTwo {
@@ -637,10 +728,7 @@ html {
   padding-right: 10px;
   padding-left: 10px;
   margin-bottom: 10px;
-
 }
-
-
 
 .icon-colourTwo {
   color: #ffffff !important;
@@ -723,16 +811,19 @@ html {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 80px !important;
-  padding-bottom: 30px !important;
-  /* background-image: var(--section-background-color) !important; */
+  padding-top: 100px !important;
+  padding-bottom: 60px !important;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
   height: auto !important;
 }
 
@@ -790,10 +881,10 @@ html {
 }
 
 .blog-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
   height: auto !important;
 }
 
@@ -851,9 +942,11 @@ html {
 
 .project-heading {
   color: white !important;
-  font-size: 2.3em !important;
-  font-weight: 500 !important;
+  font-size: 2.5em !important;
+  font-weight: 600 !important;
   padding-top: 10px !important;
+  padding-bottom: 20px !important;
+  line-height: 1.3 !important;
 }
 
 /* --------- */
@@ -862,33 +955,36 @@ html {
 
 .about-section {
   position: relative !important;
-  padding-top: 140px !important;
-  padding-bottom: 30px !important;
-  /* background-image: var(--section-background-color) !important; */
+  padding-top: 100px !important;
+  padding-bottom: 60px !important;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
   color: rgb(255, 255, 255) !important;
 }
 
-
 .skillContainer {
-  /* width: 100%; */
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-@media (min-width:500px) and (max-width:980px) {
+@media (min-width: 500px) and (max-width: 980px) {
   .skillContainer {
     width: 95%;
   }
 }
 
-
-.skillContainer>div {
+.skillContainer > div {
   width: 85px;
   height: 85px;
   border: 2px solid rgba(255, 0, 170, 0.459);
@@ -902,19 +998,19 @@ html {
   overflow: hidden;
 }
 
-.skillContainer>div>:first-child {
+.skillContainer > div > :first-child {
   color: #0095ff;
   font-size: 35px !important;
   margin-top: 8px;
 }
 
-.skillContainer>div>p {
+.skillContainer > div > p {
   font-size: 11px;
   color: #ffffff;
   margin-top: 8px;
 }
 
-.skillContainer>div {
+.skillContainer > div {
   cursor: pointer;
 }
 
@@ -926,7 +1022,6 @@ html {
   position: relative;
 }
 
-
 .tech-icons::before {
   position: absolute;
   top: 0;
@@ -936,12 +1031,16 @@ html {
   content: "";
   width: 50%;
   height: 100%;
-  background: -webkit-linear-gradient(left,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0.3) 100%);
-  background: linear-gradient(to right,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0.3) 100%);
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
   -webkit-transform: skewX(-25deg);
   transform: skewX(-25deg);
 }
@@ -962,7 +1061,6 @@ html {
     left: 125%;
   }
 }
-
 
 .tech-icons:hover {
   transform: scale(1.05) !important;
@@ -998,9 +1096,12 @@ html {
 /* --------- */
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
-  padding-bottom: 30px !important;
-  /* background-image: var(--section-background-color) !important; */
+  padding-top: 100px !important;
+  padding-bottom: 60px !important;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
   color: white !important;
 }
 
@@ -1021,7 +1122,7 @@ html {
   color: white !important;
 }
 
-.certificate_Links>svg {
+.certificate_Links > svg {
   /* color: black; */
   margin-top: -4px;
 }
@@ -1237,7 +1338,7 @@ html {
     padding-top: 25px;
   }
 
-  .my-img-home-div>img {
+  .my-img-home-div > img {
     max-width: 85%;
     margin: auto;
   }
@@ -1269,7 +1370,6 @@ html {
   animation: fadeInUp 1s ease-in-out 0s forwards;
 }
 
-
 .myMessageWarniingColor {
   color: white;
 }
@@ -1280,24 +1380,49 @@ html {
   top: -4px;
 }
 
-
-
-
-
 /*  media querries for mobile screen width max 420px */
 @media (max-width: 420px) {
   .home-about-section {
     max-width: 100%;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
-
 
   .home-about-body {
     font-size: 1.05em !important;
     line-height: 1.7em !important;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .home-content {
     padding-top: 4rem !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .home-section {
+    padding-top: 135px !important;
+    padding-bottom: 40px !important;
+  }
+
+  .project-section,
+  .about-section,
+  .resume-section {
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .project-heading {
+    font-size: 1.8em !important;
+  }
+
+  .skillContainer {
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 60px;
   }
 
   .navbar {
@@ -1311,11 +1436,10 @@ html {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-
 }
 
-@media (max-width:420px) {
-  .modal-content>.modal-header {
+@media (max-width: 420px) {
+  .modal-content > .modal-header {
     font-size: 3em !important;
   }
 
@@ -1328,18 +1452,18 @@ html {
     margin-left: -20px !important;
   }
 
-  .Home-Call-Img>p,
-  .Home-Mail-Call>p {
+  .Home-Call-Img > p,
+  .Home-Mail-Call > p {
     text-align: left !important;
     font-size: 18px !important;
     margin-left: -30px !important;
   }
 
-  .modal-body>form {
+  .modal-body > form {
     padding: 5px !important;
   }
 
-  .modal-body>form label {
+  .modal-body > form label {
     font-size: 0.7em !important;
   }
 
@@ -1353,11 +1477,8 @@ html {
   }
 }
 
-
-
-
 /* to change the navbar li item color dynamically */
-.active>span {
+.active > span {
   color: #0095ff;
-  font-weight: bold
+  font-weight: bold;
 }
