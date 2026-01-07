@@ -1,5 +1,5 @@
 import React from "react";
-import { SiRedux, SiTypescript, SiSass, SiKubernetes, SiAdonisjs, SiMaterialUi, SiFirebase, SiRedis, SiDocker, SiPostgresql, SiSwagger } from "react-icons/si";
+import { SiRedux, SiTypescript, SiSass, SiKubernetes, SiAdonisjs, SiMui, SiFirebase, SiRedis, SiDocker, SiPostgresql, SiSwagger } from "react-icons/si";
 import { DiPython, DiMysql, DiHtml5, DiCss3, DiReact, DiNpm, DiBootstrap, DiJavascript1, DiMongodb, DiNodejs } from "react-icons/di";
 function FrontEnd() {
     return (
@@ -106,7 +106,7 @@ function FrontEnd() {
 
             {/* Material UI */}
             <div className="tech-icons">
-                <SiMaterialUi /><p>MaterialUi</p>
+                <SiMui /><p>MaterialUi</p>
             </div>
 
             {/* Bootstrap */}

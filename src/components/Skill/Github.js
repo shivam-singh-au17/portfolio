@@ -4,14 +4,10 @@ import { Row } from "react-bootstrap";
 
 function Github() {
   const colourTheme = {
-    background: "transparent",
-    text: "#ffffff",
-    grade4: "#006080",
-    grade3: "#00ace6",
-    grade2: "#33ccff",
-    grade1: "#80dfff",
-    grade0: "#ecd9fc",
+    light: ["#ecd9fc", "#80dfff", "#33ccff", "#00ace6", "#006080"],
+    dark: ["#ecd9fc", "#80dfff", "#33ccff", "#00ace6", "#006080"],
   };
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
@@ -21,8 +17,10 @@ function Github() {
         username="shivam-singh-au17"
         blockSize={15}
         blockMargin={5}
+        colorScheme="dark"
         theme={colourTheme}
         fontSize={16}
+        style={{ background: "transparent", color: "#ffffff" }}
       />
     </Row>
   );

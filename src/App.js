@@ -7,7 +7,7 @@ import Blogs from "./components/Blogs/Blogs";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";

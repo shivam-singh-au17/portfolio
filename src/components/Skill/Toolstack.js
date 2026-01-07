@@ -1,5 +1,6 @@
 import React from "react";
-import { SiVisualstudiocode, SiPostman, SiNetlify, SiFigma, SiGitlab } from "react-icons/si";
+import { SiPostman, SiNetlify, SiFigma, SiGitlab } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 import { IoLogoVercel } from "react-icons/io5";
 import { DiGit } from "react-icons/di";
 import { AiFillCodepenCircle, AiFillCodeSandboxSquare, AiFillGithub } from "react-icons/ai"
@@ -13,7 +14,7 @@ function Toolstack() {
 
       {/* VS Code */}
       <div className="tech-icons">
-        <SiVisualstudiocode /><p>VSCode</p>
+        <VscVscode /><p>VSCode</p>
       </div>
 
       {/* Postman */}

@@ -1,118 +1,119 @@
-import React from "react";
-import Particles from "react-particles-js";
+import React, { useCallback } from "react";
+import Particles from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
 
 function Particle2() {
+    const particlesInit = useCallback(async (engine) => {
+        await loadSlim(engine);
+    }, []);
+
     return (
         <Particles
-            params={{
-                "particles": {
-                    "number": {
-                        "value": 160,
-                        "density": {
-                            "enable": true,
-                            "value_area": 800
+            id="tsparticles2"
+            init={particlesInit}
+            options={{
+                particles: {
+                    number: {
+                        value: 160,
+                        density: {
+                            enable: true,
+                            area: 800
                         }
                     },
-                    "color": {
-                        "value": "#ffffff"
+                    color: {
+                        value: "#ffffff"
                     },
-                    "shape": {
-                        "type": "polygon",
-                        "stroke": {
-                            "width": 0,
-                            "color": "#000000"
+                    shape: {
+                        type: "polygon",
+                        polygon: {
+                            sides: 5
+                        }
+                    },
+                    opacity: {
+                        value: 0.8,
+                        random: false,
+                        animation: {
+                            enable: true,
+                            speed: 1,
+                            minimumValue: 0,
+                            sync: false
+                        }
+                    },
+                    size: {
+                        value: 3,
+                        random: true,
+                        animation: {
+                            enable: false,
+                            speed: 4,
+                            minimumValue: 0.3,
+                            sync: false
+                        }
+                    },
+                    links: {
+                        enable: false,
+                        distance: 150,
+                        color: "#ffffff",
+                        opacity: 0.4,
+                        width: 1
+                    },
+                    move: {
+                        enable: true,
+                        speed: 1,
+                        direction: "none",
+                        random: true,
+                        straight: false,
+                        outModes: {
+                            default: "out"
                         },
-                        "polygon": {
-                            "nb_sides": 5
-                        },
-                        "image": {
-                            "src": "img/github.svg",
-                            "width": 100,
-                            "height": 100
-                        }
-                    },
-                    "opacity": {
-                        "value": 0.8,
-                        "random": false,
-                        "anim": {
-                            "enable": true,
-                            "speed": 1,
-                            "opacity_min": 0,
-                            "sync": false
-                        }
-                    },
-                    "size": {
-                        "value": 3.008530152163807,
-                        "random": true,
-                        "anim": {
-                            "enable": false,
-                            "speed": 4,
-                            "size_min": 0.3,
-                            "sync": false
-                        }
-                    },
-                    "line_linked": {
-                        "enable": false,
-                        "distance": 150,
-                        "color": "#ffffff",
-                        "opacity": 0.4,
-                        "width": 1
-                    },
-                    "move": {
-                        "enable": true,
-                        "speed": 1,
-                        "direction": "none",
-                        "random": true,
-                        "straight": false,
-                        "out_mode": "out",
-                        "bounce": false,
-                        "attract": {
-                            "enable": false,
-                            "rotateX": 600,
-                            "rotateY": 600
+                        bounce: false,
+                        attract: {
+                            enable: false,
+                            rotateX: 600,
+                            rotateY: 600
                         }
                     }
                 },
-                "interactivity": {
-                    "detect_on": "window",
-                    "events": {
-                        "onhover": {
-                            "enable": false,
-                            "mode": "grab",
+                interactivity: {
+                    detectsOn: "window",
+                    events: {
+                        onHover: {
+                            enable: false,
+                            mode: "grab"
                         },
-                        "onclick": {
-                            "enable": true,
-                            "mode": "remove"
+                        onClick: {
+                            enable: true,
+                            mode: "remove"
                         },
-                        "resize": true
+                        resize: {
+                            enable: true
+                        }
                     },
-                    "modes": {
-                        "grab": {
-                            "distance": 400,
-                            "line_linked": {
-                                "opacity": 1
+                    modes: {
+                        grab: {
+                            distance: 400,
+                            links: {
+                                opacity: 1
                             }
                         },
-                        "bubble": {
-                            "distance": 250,
-                            "size": 0,
-                            "duration": 2,
-                            "opacity": 0,
-                            "speed": 3
+                        bubble: {
+                            distance: 250,
+                            size: 0,
+                            duration: 2,
+                            opacity: 0
                         },
-                        "repulse": {
-                            "distance": 400,
-                            "duration": 0.4
+                        repulse: {
+                            distance: 400,
+                            duration: 0.4
                         },
-                        "push": {
-                            "particles_nb": 4
+                        push: {
+                            quantity: 4
                         },
-                        "remove": {
-                            "particles_nb": 2
+                        remove: {
+                            quantity: 2
                         }
                     }
                 },
-                "retina_detect": true
+                detectRetina: true
             }}
         />
     );

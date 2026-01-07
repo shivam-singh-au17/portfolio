@@ -12,7 +12,7 @@ function NewPortfolioBanner() {
                         Check out my <span className="purple">new portfolio</span> with updated projects and design!
                     </span>
                     <a
-                        href="https://shivamsinghportfolio.ov2.vercel.app/"
+                        href="https://shivamsinghportfoliov2.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="banner-button"
