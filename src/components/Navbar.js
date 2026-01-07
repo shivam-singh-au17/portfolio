@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import { useLocation } from "react-router-dom";
 
 function NavBar() {
@@ -56,8 +55,12 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <Navbar.Brand href="/" className="logo-brand">
+          <div className="logo-container">
+            <span className="logo-bracket">&lt;</span>
+            <span className="logo-text">Shivam</span>
+            <span className="logo-bracket">/&gt;</span>
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
