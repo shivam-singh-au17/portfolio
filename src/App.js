@@ -14,6 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import ScrollToTop from "./components/ScrollToTop";
 import Skill from "./components/Skill/Skill";
+import NewPortfolioBanner from "./components/NewPortfolioBanner";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -30,6 +31,7 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
+        <NewPortfolioBanner />
         <Navbar />
         {/* <ScrollToTop /> */}
         <Home />
