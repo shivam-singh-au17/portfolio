@@ -15,7 +15,6 @@ function NavBar() {
     updateExpanded(false);
   };
 
-  // console.log("scrollintoview", window);
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
