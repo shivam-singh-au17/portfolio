@@ -12,7 +12,6 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import ScrollToTop from "./components/ScrollToTop";
 import Skill from "./components/Skill/Skill";
 import NewPortfolioBanner from "./components/NewPortfolioBanner";
 

@@ -1,15 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle2 from "../Particle2";
-import Footer from "../Footer";
 
 import project01 from "../../Assets/Projects/project01.png";
 import project02 from "../../Assets/Projects/project02.png";
 import project03 from "../../Assets/Projects/project03.png";
 import project05 from "../../Assets/Projects/project05.png";
-import project06 from "../../Assets/Projects/project06.png";
-import project07 from "../../Assets/Projects/project07.png";
 import project08 from "../../Assets/Projects/project08.png";
 
 function Projects() {

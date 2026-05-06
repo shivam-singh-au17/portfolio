@@ -3,12 +3,10 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import { useLocation } from "react-router-dom";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const { pathname } = useLocation();
 
   const scrollToFunction = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });

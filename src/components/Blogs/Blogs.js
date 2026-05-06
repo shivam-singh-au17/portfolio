@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import BlogsCard from "./BlogsCard";
 import Particle2 from "../Particle2";
-import Footer from "../Footer";
 
 import project01 from "../../Assets/Blogs/project01.png";
 import project02 from "../../Assets/Blogs/project02.png";
