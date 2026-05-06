@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle2 from "../Particle2";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/Shivam_Singh_Resume.pdf";
+import pdf from "../../Assets/shivamsingh4458@gmail.com.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
